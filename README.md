@@ -24,9 +24,9 @@ Chaque dossier contient :
 - **Solution** : Diviser les responsabilités en plusieurs classes.
 - **Diagrammes UML** :
   - Avant :  
-    ![SRP Problème](SRP/Uml-probleme.png)
+    ![SRP Problème](SRP/Uml_probleme.png)
   - Après :  
-    ![SRP Solution](SRP/Uml-solution.png)
+    ![SRP Solution](SRP/Uml_solution.png)
 
 ### 2. OCP - Open-Closed Principle
 - **Problème** : Modifier une classe existante pour ajouter de nouvelles fonctionnalités viole le principe OCP.
@@ -35,33 +35,39 @@ Chaque dossier contient :
   - Avant :  
     ![OCP Problème](OCP/Uml-probleme.png)
   - Après :  
-    ![OCP Solution](OCP/Uml-solution.png)
+    ![OCP Solution](OCP/Uml_solution.png)
 
 ### 3. LSP - Liskov Substitution Principle
 - **Problème** : Une sous-classe ne peut pas remplacer sa classe parente sans rompre le fonctionnement du système.
 - **Solution** : Refactoriser les classes pour respecter le contrat de la classe parente.
 - **Diagrammes UML** :
   - Avant :  
-    ![LSP Problème](LSP/Uml-probleme.png)
+    ![LSP Problème](LSP/Uml_probleme.png)
   - Après :  
-    ![LSP Solution](LSP/Uml-solution.png)
+    ![LSP Solution](LSP/Uml_solution.png)
 
 ### 4. ISP - Interface Segregation Principle
 - **Problème** : Une interface unique impose des méthodes inutilisées aux classes qui l’implémentent.
 - **Solution** : Diviser les interfaces en interfaces plus spécifiques.
 - **Diagrammes UML** :
   - Avant :  
-    ![ISP Problème](ISP/Uml-probleme.png)
+    ![ISP Problème](ISP/Uml_probleme.png)
   - Après :  
-    ![ISP Solution](ISP/Uml-solution.png)
+    ![ISP Solution](ISP/Uml_solution.png)
 
 ### 5. DIP - Dependency Inversion Principle
 - **Problème** : Les classes dépendent directement de classes concrètes plutôt que d'abstractions.
 - **Solution** : Introduire des interfaces ou des abstractions pour inverser les dépendances.
 - **Diagrammes UML** :
   - Avant :  
-    ![DIP Problème](DIP/Uml-probleme.png)
+    ![DIP Problème](DIP/Uml_probleme.png)
   - Après :  
-    ![DIP Solution](DIP/Uml-solution.png)
+    ![DIP Solution](DIP/Uml_solution.png)
 
 ---
+
+## Réalisé par
+
+- **Ahmed Cherif**
+- **Oussama Ziada**
+- **Achraf Triki**
