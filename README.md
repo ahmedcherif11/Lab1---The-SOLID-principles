@@ -42,7 +42,7 @@ Chaque dossier contient :
 - **Solution** : Refactoriser les classes pour respecter le contrat de la classe parente.
 - **Diagrammes UML** :
   - Avant :  
-    ![LSP Problème](LSP/Uml_probleme.png)
+    ![LSP Problème](LSP/Uml-probleme.png)
   - Après :  
     ![LSP Solution](LSP/Uml_solution.png)
 
@@ -60,7 +60,7 @@ Chaque dossier contient :
 - **Solution** : Introduire des interfaces ou des abstractions pour inverser les dépendances.
 - **Diagrammes UML** :
   - Avant :  
-    ![DIP Problème](DIP/Uml_probleme.png)
+    ![DIP Problème](DIP/Uml_Probleme.png)
   - Après :  
     ![DIP Solution](DIP/Uml_solution.png)
 
