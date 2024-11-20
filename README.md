@@ -33,9 +33,9 @@ Chaque dossier contient :
 - **Solution** : Utiliser des abstractions ou des extensions pour éviter de modifier les classes existantes.
 - **Diagrammes UML** :
   - Avant :  
-    ![OCP Problème](OCP/Uml-probleme.png)
+    ![OCP Problème](OCCP/Uml-probleme.png)
   - Après :  
-    ![OCP Solution](OCP/Uml_solution.png)
+    ![OCP Solution](OCCP/Uml_solution.png)
 
 ### 3. LSP - Liskov Substitution Principle
 - **Problème** : Une sous-classe ne peut pas remplacer sa classe parente sans rompre le fonctionnement du système.
