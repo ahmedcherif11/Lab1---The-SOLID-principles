@@ -12,10 +12,8 @@ Le repository est organisé comme suit :
 - **DIP** : Principe d'inversion des dépendances (Dependency Inversion Principle)
 
 Chaque dossier contient :
-1. Le **code avant modification**.
-2. Le **code après modification** appliquant le principe SOLID.
-3. Les **diagrammes UML** (avant et après modification).
-4. Une explication sur la manière dont le principe a été respecté.
+1. Le **code après modification** appliquant le principe SOLID.
+2. Les **diagrammes UML** (avant et après modification).
 
 ---
 
@@ -25,36 +23,45 @@ Chaque dossier contient :
 - **Problème** : Une classe a plusieurs responsabilités, ce qui la rend difficile à maintenir.
 - **Solution** : Diviser les responsabilités en plusieurs classes.
 - **Diagrammes UML** :
-  - Avant : `SRP/Uml-probleme.png`
-  - Après : `SRP/Uml-solution.png`
+  - Avant :  
+    ![SRP Problème](SRP/Uml-probleme.png)
+  - Après :  
+    ![SRP Solution](SRP/Uml-solution.png)
 
 ### 2. OCP - Open-Closed Principle
 - **Problème** : Modifier une classe existante pour ajouter de nouvelles fonctionnalités viole le principe OCP.
 - **Solution** : Utiliser des abstractions ou des extensions pour éviter de modifier les classes existantes.
 - **Diagrammes UML** :
-  - Avant : `OCP/Uml-probleme.png`
-  - Après : `OCP/Uml-solution.png`
+  - Avant :  
+    ![OCP Problème](OCP/Uml-probleme.png)
+  - Après :  
+    ![OCP Solution](OCP/Uml-solution.png)
 
 ### 3. LSP - Liskov Substitution Principle
 - **Problème** : Une sous-classe ne peut pas remplacer sa classe parente sans rompre le fonctionnement du système.
 - **Solution** : Refactoriser les classes pour respecter le contrat de la classe parente.
 - **Diagrammes UML** :
-  - Avant : `LSP/Uml-probleme.png`
-  - Après : `LSP/Uml-solution.png`
+  - Avant :  
+    ![LSP Problème](LSP/Uml-probleme.png)
+  - Après :  
+    ![LSP Solution](LSP/Uml-solution.png)
 
 ### 4. ISP - Interface Segregation Principle
 - **Problème** : Une interface unique impose des méthodes inutilisées aux classes qui l’implémentent.
 - **Solution** : Diviser les interfaces en interfaces plus spécifiques.
 - **Diagrammes UML** :
-  - Avant : `ISP/Uml-probleme.png`
-  - Après : `ISP/Uml-solution.png`
+  - Avant :  
+    ![ISP Problème](ISP/Uml-probleme.png)
+  - Après :  
+    ![ISP Solution](ISP/Uml-solution.png)
 
 ### 5. DIP - Dependency Inversion Principle
 - **Problème** : Les classes dépendent directement de classes concrètes plutôt que d'abstractions.
 - **Solution** : Introduire des interfaces ou des abstractions pour inverser les dépendances.
 - **Diagrammes UML** :
-  - Avant : `DIP/Uml-probleme.png`
-  - Après : `DIP/Uml-solution.png`
+  - Avant :  
+    ![DIP Problème](DIP/Uml-probleme.png)
+  - Après :  
+    ![DIP Solution](DIP/Uml-solution.png)
 
 ---
-
