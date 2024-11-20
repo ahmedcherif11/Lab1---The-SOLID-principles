@@ -60,7 +60,7 @@ Chaque dossier contient :
 - **Solution** : Introduire des interfaces ou des abstractions pour inverser les dépendances.
 - **Diagrammes UML** :
   - Avant :  
-    ![DIP Problème](DIP/Uml_Probleme.png)
+    ![DIP Problème](DIP/Uml_Pobleme.png)
   - Après :  
     ![DIP Solution](DIP/Uml_solution.png)
 
